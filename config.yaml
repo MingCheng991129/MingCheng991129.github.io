@@ -145,10 +145,10 @@ params:
     image: "/images/me.png"
     content: |-
 
-      I am currently a Master's student in Computer Science at [Dartmouth College](https://web.cs.dartmouth.edu/), NH, USA, with the highest-level Excellence Scholarship covering 90% of tuition fee.
+      I am currently a Master's student in Computer Science at [Dartmouth College](https://web.cs.dartmouth.edu/), NH, USA, **with the highest-level Excellence Scholarship covering 90% of tuition fee**.
 
-      I received my Bachelor's degree in Computer Engineering (Automation) from [Shanghai Jiao Tong University (SJTU)](https://english.seiee.sjtu.edu.cn/english/index.htm), Shanghai, China.
-      During my undergraduate study at SJTU, I won the Excellence Scholarship for three years continuously in 2018, 2019, and 2020.
+      I received my Bachelor's degree in Computer Engineering (Automation + AI Honor Program) from [Shanghai Jiao Tong University (SJTU)](https://english.seiee.sjtu.edu.cn/english/index.htm), Shanghai, China.
+      During my undergraduate study at SJTU, **I won the Excellence Scholarship for three years continuously in 2018, 2019, and 2020.**
 
       Before joining Dartmouth, I had extensive industrial experience working as a software engineer. 
 
