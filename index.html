@@ -159,7 +159,14 @@ Ming Cheng Personal Profile
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#projectwide"
-                            aria-label="projectwide">Publications & Projects</a>
+                            aria-label="projectwide">Publications</a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projectwide">Projects</a>
                     </li>
                     
 
@@ -572,7 +579,7 @@ During my undergraduate study at SJTU, <strong>I won the Excellence Scholarship 
 <li>Backend Software Engineer @ TP-Link (07/2021 - 07/2022, Shenzhen, China)</li>
 </ol>
 <p>My interest lies in: Backend Development, Full-stack Development, Operating Systems, Algorithms, Databases, Data Structures, Computer Vision, Artificial Intelligence, Robotics, etc.</p>
-<p>Oh, there is one more thing&hellip; I a superfan of the famous TV sitcom <em>The Big Bang Theory</em>, and that&rsquo;s why I choose my English name as Leonard. :)</p>
+<p>Superfan of <em>Stephen Curry</em>, one of the greatest basketball players, EVER. <em>#DubNation #GoldBlooded #WeBelieve</em></p>
 
 
                 
@@ -839,7 +846,7 @@ During my undergraduate study at SJTU, <strong>I won the Excellence Scholarship 
 
 <section id="projectwide" class="py-5">
     <div class="container">
-        <h3 class="text-center">Publications And Projects</h3>
+        <h3 class="text-center">Publications</h3>
         <div class="row justify-content-center py-5">
             
             
@@ -896,52 +903,122 @@ I used <em>PyTorch</em> to implement <em>DASGIL’s Feature Extractor, Feature D
                 </div>
             </div>
             
-            <div class="col-12 p-0">
-                <div class="row row align-items-center justify-content-center m-1 mb-4">
-                    
-
-                    <div class="col-md-9">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="float-end">
-                                    <small>09/2021 - 12/2021</small>
-                                </div>
-                                <h5 class="card-title">UDP Support For Linux Kernel RPS: Receive Packet Steering</h5>
-
-                                
-                                
-                                
-                                Operating System Project
-                                
-
-                                
-                                <div class="py-1 projectwide-content">
-                                    <ul>
-<li><strong>Testing Results</strong>:
-<ul>
-<li>Improved CPU utilization rate by 12.4% when processing UDP data during the Linux RPS packet receiving process by designing a novel data structure using the C language in the Linux kernel.</li>
-</ul>
-</li>
-<li><strong>My Contributions</strong>:
-<ul>
-<li>Designed a two-level Hashmap structure to calculate the CPU ID for each group of UDP fragment data, enabling different groups of data to be processed by different CPUs.</li>
-<li>Managed memory space usage by applying a “memory space reuse mechanism” based on linked lists using APIs in the Linux kernel for code implementation.</li>
-</ul>
-</li>
-</ul>
-                                </div>
-
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
         </div>
     </div>
 </section>
 
+
+<section id="projects" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Projects</h3>
+        <div class="row justify-content-center px-3 px-md-5">
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="UDP Support For Linux RPS: Receive Packet Steering">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/rps.png" alt="UDP Support For Linux RPS: Receive Packet Steering">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">C Language</span>
+                            
+                            <span class="badge badge-secondary">Linux Kernel</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">UDP Support For Linux RPS: Receive Packet Steering</h5>
+                        
+                        <div class="projects-content">
+                            <em>Operating System Project</em></p>
+<ul>
+<li>Designed a two-level Hashmap structure to calculate the CPU ID for each group of UDP data, enabling different groups of data to be processed by different CPUs.</li>
+<li>Managed memory space usage by applying a “memory space reuse mechanism” based on linked lists using APIs in Linux kernel.</li>
+<li>Improved CPU utilization rate by <strong>12.4%</strong> when processing UDP data during the Linux RPS packet receiving process.</li>
+</ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Yalnix OS Kernel">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/yalnix.jpeg" alt="Yalnix OS Kernel">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">C Language</span>
+                            
+                            <span class="badge badge-secondary">Linux Kernel</span>
+                            
+                            <span class="badge badge-secondary">GDB Debugger</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Yalnix OS Kernel</h5>
+                        
+                        <div class="projects-content">
+                            <p><em>Operating System Project</em></p>
+<p>Implemented the kernel of <em>Yalnix</em> OS, including:</p>
+<ul>
+<li><strong>System Bootloader:</strong> kernel start, idle process, load program</li>
+<li><strong>Memory Management:</strong> userland/kernel pagetable, virtual memory enabling</li>
+<li><strong>Basic Syscalls:</strong> fork, exec, exit, wait, getpid, brk, delay</li>
+<li><strong>Synchronization:</strong> locks, condition variables, semaphores</li>
+<li><strong>Interrupt/Trap Handler:</strong> clock handler, memory handler, syscall handler</li>
+<li><strong>I/O:</strong> terminal read/write</li>
+<li><strong>Other Functionality:</strong> pipe, process switching, Round-Robin Scheduling</li>
+</ul>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Solving Delivery Problems With Multi-robot Systems">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/demo.png" alt="Solving Delivery Problems With Multi-robot Systems">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Python</span>
+                            
+                            <span class="badge badge-secondary">C&#43;&#43;</span>
+                            
+                            <span class="badge badge-secondary">ROS</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Solving Delivery Problems With Multi-robot Systems</h5>
+                        
+                        <div class="projects-content">
+                            <em>Multi-robot System Project</em></p>
+<ul>
+<li>Encoded <em>Delivery Problems</em>: problem representation, input/output.</li>
+<li>Used C++ to implement Genetic Algorithm as the solution.</li>
+<li>Finished several comparative experiments and tested in ROS simulation environment.</li>
+<li>Finished the final report.</li>
+<li>Links:
+<ul>
+<li><a href="https://gitlab.com/wmdcstdio/multirobot-allocation/-/tree/main"><em><u>Here is the code link.</u></em></a></li>
+<li><a href="https://drive.google.com/file/d/1d2kyDFU5CSVT-YjODVmMSsvDkUGqtSRO/view?usp=sharing"><em><u>Here is the paper link.</u></em></a></li>
+<li><a href="https://drive.google.com/file/d/1SARgiQKNuTpCXcoCel_osuWaj_1mJcVs/view?usp=sharing"><em><u>Here is the video demo link.</u></em></a></li>
+</ul>
+</li>
+</ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
 
 <section id="achievements" class="py-5">
     <div class="container">
